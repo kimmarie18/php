@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,26 +21,29 @@
     <div>
       <hr />
     </div>
-    <section>
+    <main>
       <aside>
         <p class="asidetop">PHP Manual > Getting Started</p>
-        <p class="asideleft1">&#9679; What can PHP do?</p>
-        <p class="asideleft2">What do i need?&#9679;</p>
+        <p class="asideleft1">&lt;&lt; What can PHP do?</p>
+        <p class="asideleft2">What do i need?&gt;&gt;</p>
       </aside>
       <div class="box">
-        <main class="content">
+        <section class="content">
           <div class="language">
             <label>Change language:</label>
             <select>
               <option value="English">English</option>
               <option value="Tagalog">Tagalog</option>
             </select>
-            <a href="#">Submit a Pull Request</a>
-            <a href="#">Report a Bug</a>
           </div>
+            <a class="submit" href="#">Submit a Pull Request</a>
+            <a class="report" href="#">Report a Bug</a>
+          
 
-          <h2>A simple Tutorial</h2>
-          <h2>Table of Contents</h2>
+          <h2 class="simpletut">A Simple Tutorial</h2>
+          
+          <h2 class="tableof">Table of Contents</h2>
+          
           <ul>
             <li><a href="#">What do i need?</a></li>
             <li><a href="#">your first PHP-enabled page</a></li>
@@ -47,40 +51,41 @@
             <li><a href="#">Dealing with Forms</a></li>
             <li><a href="#">What's next?</a></li>
           </ul>
-          <p>
+          <p class="firstp">
             Here we would like to show you the very basics of PHP in a short,
             simple tutorial. This text only deals with dynamic web page creation
             with PHP, though PHP is not only capable of creating web pages. See
             the second titled <a href="#">What can PHP do</a> for more
             information.
           </p>
-          <p>
+          <p class="secondp">
             PHP-enabled web pages are treated just like regular HTML pages and
             you cn create and edit them the same way you normally create regular
             HTML pages.
           </p>
-          <h2>>>User Contributed Notes</h2>
-          <p>add a note</p>
-
-          <p>There are no user contributed notes for this page.</p>
-        </main>
+            <h2 class="usercontri">User Contributed Notes</h2>
+            <a class="note" href="#"><img src="add.png" alt="add">add a note</a>
+      
+          <p class="nonotes">There are no user contributed notes for this page.</p>
+        </section>
         <aside class="asidebelow">
-          <h4>Getting Started</h4>
+          <h3>Getting Started</h3>
           <hr />
-          <p>introduction</p>
+          <p>Introduction</p>
           <hr />
           <p class="pink">&gt;&gt;A simple tutorial</p>
-          <hr />
         </aside>
       </div>
-    </section>
+    </main>
     <footer>
-      <span>copyright&copy; 2001-2021 The PHP Group</span>
-      <p>My PHP.net</p>
-      <p>Contact</p>
-      <p>Other PHP.net sites</p>
-      <p>Privacy Policy</p>
-      <p>View Source</p>
+      <div class="footing">
+        <p>copyright&copy; 2001-2021 The PHP Group</p>
+        <p>My PHP.net</p>
+        <p>Contact</p>
+        <p>Other PHP.net sites</p>
+        <p>Privacy Policy</p>
+        <p>View Source</p>
+      </div>
     </footer>
   </body>
 </html>
